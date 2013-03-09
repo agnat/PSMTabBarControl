@@ -891,7 +891,9 @@
         [self hideTabBar:YES animate:YES];
         return;
     } else {
-        [self hideTabBar:NO animate:YES];
+        // TODO: this is broken - when manually hiding the tab bar the state is toggled again which results
+        // in a visible tab bar with twice the height as before
+        //[self hideTabBar:NO animate:YES];
     }
 	
     [self removeAllToolTips];
