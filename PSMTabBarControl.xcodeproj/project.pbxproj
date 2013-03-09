@@ -660,6 +660,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = TabBarControlDemo;
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
@@ -684,6 +685,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = TabBarControlDemo;
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
@@ -709,6 +711,7 @@
 					0xb0000000,
 				);
 				PRODUCT_NAME = PSMTabBarControl;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = NO;
 			};
 			name = Debug;
@@ -731,6 +734,7 @@
 					0xb0000000,
 				);
 				PRODUCT_NAME = PSMTabBarControl;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
